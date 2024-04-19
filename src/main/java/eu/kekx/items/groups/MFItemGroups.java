@@ -13,7 +13,7 @@ public class MFItemGroups {
 
     public static void addItemsToExisting() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.addAfter(Items.FLINT, MFItems.SHARP_FLINT);
+            entries.addAfter(Items.FLINT, MFItems.SHARPENED_FLINT);
         });
         LOGGER.info("Initialized all medieval-flint item groups");
     }

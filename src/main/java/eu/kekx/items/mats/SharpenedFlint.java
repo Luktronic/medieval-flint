@@ -7,10 +7,10 @@ import net.minecraft.world.World;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class SharpFlint extends Item {
+public class SharpenedFlint extends Item {
     private static final Logger LOGGER = LoggerFactory.getLogger("medieval-flint");
 
-    public SharpFlint(Settings settings) {
+    public SharpenedFlint(Settings settings) {
         super(settings);
     }
 
