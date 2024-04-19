@@ -1,5 +1,6 @@
 package eu.kekx.items;
 
+import eu.kekx.MedievalFlint;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,7 +12,7 @@ import org.slf4j.LoggerFactory;
 public class MFItems {
     private static final Logger LOGGER = LoggerFactory.getLogger("medieval-flint");
 
-    private static final String NAMESPACE = "medieval-flint";
+    private static final String NAMESPACE = MedievalFlint.MOD_ID;
     public static Item SHARP_FLINT;
 
     public static void registerItems() {
