@@ -1,12 +1,8 @@
 package eu.kekx;
 
 import eu.kekx.items.MFItems;
+import eu.kekx.items.groups.MFItemGroups;
 import net.fabricmc.api.ModInitializer;
-
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +19,7 @@ public class MedievalFlint implements ModInitializer {
 		// Proceed with mild caution.
 
 		MFItems.registerItems();
+		MFItemGroups.addItemsToExisting();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
